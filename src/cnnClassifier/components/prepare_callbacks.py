@@ -3,10 +3,10 @@ import urllib.request as request
 from zipfile import ZipFile
 import tensorflow as tf
 import time
-from cnnClassifier.entity.config_entity import PrepareCallBackConfig
+from cnnClassifier.entity.config_entity import PrepareCallBacksConfig
 
 class PrepareCallback:
-    def __init__(self, config: PrepareCallBackConfig):
+    def __init__(self, config: PrepareCallBacksConfig):
         self.config = config
 
     @property
