@@ -7,7 +7,7 @@ STAGE_NAME = "Training"
 
 class ModelTrainingPipeline:
     def __init__(self):
-        pass    
+        pass
     def main(self):
         config = ConfigurationManager()
         prepare_callbacks_config = config.get_prepare_callback_config()
